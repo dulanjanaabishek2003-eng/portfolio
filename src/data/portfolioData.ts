@@ -33,7 +33,7 @@ export const portfolioData = {
     ],
     contact: {
       email: "dulanjanaabishek2003@gmail.com",
-      github: "https://github.com/dulanjanaabishek2003",
+      github: "https://github.com/dulanjanaabishek2003-eng",
       linkedin: "https://www.linkedin.com/in/abishek-siriwardhana-33b631401",
     },
     education: {
