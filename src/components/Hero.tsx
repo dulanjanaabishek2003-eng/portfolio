@@ -61,8 +61,6 @@ export default function Hero() {
             className="button secondary-btn"
             href={`${basePath}/Abishek_Siriwardhana_CV.pdf`}
             download="Abishek_Siriwardhana_CV.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <span>Download CV</span>
             {/* Doc SVG icon matching reference */}
