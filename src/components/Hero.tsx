@@ -5,6 +5,7 @@ import { portfolioData } from "@/data/portfolioData";
 
 export default function Hero() {
   const { personal } = portfolioData;
+  const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
 
   return (
     <section className="hero wrap min-h-[680px] lg:min-h-[740px] pt-12 pb-16 lg:py-[75px] grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-12 lg:gap-[60px] items-center" id="home" aria-labelledby="hero-title">
@@ -103,7 +104,7 @@ export default function Hero() {
 
           <div className="portrait-image">
             <img
-              src="/portrait.jpg"
+              src={`${basePath}/portrait.jpg`}
               alt="Abishek Siriwardhana"
               width={320}
               height={310}
