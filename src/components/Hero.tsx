@@ -59,7 +59,10 @@ export default function Hero() {
 
           <a
             className="button secondary-btn"
-            href={`mailto:${personal.contact.email}?subject=Resume%20Request%20-%20Abishek%20Siriwardhana`}
+            href={`${basePath}/Abishek_Siriwardhana_CV.pdf`}
+            download="Abishek_Siriwardhana_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span>Download CV</span>
             {/* Doc SVG icon matching reference */}
